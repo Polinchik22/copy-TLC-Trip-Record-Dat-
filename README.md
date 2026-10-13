@@ -1,4 +1,14 @@
-# TLC High Volume FHV Trip Record Data
+# NYC High Volume FHV Trip Data
+
+Jupyter notebooks for exploring New York City High Volume For-Hire Vehicle (FHV) trip records from January 2025 to April 2026. This repository documents the dataset and its fields; the notebooks contain the project analysis.
+
+## Notebooks
+
+- [Main analysis](tlc.ipynb)
+- [API experiments](api.ipynb)
+- [Colab notebook](colab.ipynb)
+
+## Dataset
 
 Данные [NYC Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) о поездках крупных сервисов заказа автомобилей, включая Uber и Lyft, за январь 2025 — апрель 2026 года. В проекте используются 16 ежемесячных файлов `fhvhv_tripdata_*.parquet`; одна строка соответствует одной поездке.
 
